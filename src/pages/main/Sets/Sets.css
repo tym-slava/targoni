@@ -1,0 +1,72 @@
+.sets {
+    background-color: white;
+    height: 45vh; 
+    margin-bottom: 200px;   
+}
+
+.block {
+   display: flex;
+    justify-content: space-around;    
+    
+}
+
+.sets-block {
+    margin: 75px auto;
+    text-align: center;
+}
+
+.sets-img {
+    max-width: 202px;
+    align-items: center;
+    
+}
+
+.sets-img a {
+    margin-bottom: 20px;
+}
+
+.sets-img p {
+    padding: 20px 10px;
+    /* max-width: 150px; */
+}
+
+h1 {
+    font-size: 56px;
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.center-block {
+    padding-top: 25px;
+}
+
+@media (max-width: 576px) {
+    .sets-block {
+        margin: 25px 0;
+        
+    }
+    .sets {
+        margin-bottom: 250px;
+        height: 55vh;;
+    }
+    
+    .center-block {
+        order: -1;
+    }
+    .center-block h1 {
+        font-size: 22px;
+        font-weight: 400!important;
+    }
+    .center-block p {
+        font-size: 16px;
+        font-weight: 300!important;
+        margin-top: 35px;
+    }
+    .sets-img {
+        width: 50%;
+        padding: 0 auto;
+    }
+}
+
+/* TODO: сделать разворотные стили */

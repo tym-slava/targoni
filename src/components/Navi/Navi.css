@@ -1,0 +1,19 @@
+
+
+ul.list-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+    ul.list-icons {
+        margin-right: 20px;
+    }
+}
+
+li.nav-item {
+    margin-left: 50px;
+}
+

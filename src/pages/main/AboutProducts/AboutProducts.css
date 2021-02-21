@@ -1,0 +1,173 @@
+.aboutProducts {
+    position: relative;
+    height: 100vh;
+    /* margin-bottom: 80px; */
+    /* background-color: grey; */
+}
+
+.title {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 56px;
+    font-family:  Vollcorn;
+}
+
+.subtitle {
+    margin: 20px 35% 74px;
+    text-align: center;
+    font-size: 18px;
+    max-width: 584px;
+}
+
+.image {
+    text-align: center;
+}
+
+.productBullet {
+    max-width: 210px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.productBullet h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.productBullet p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.bullet1 {
+    position: absolute;
+    top: 230px;
+    left: 247px;
+}
+
+.bullet2 {
+    position: absolute;
+    top: 230px;
+    right: 247px;
+}
+
+.bullet3 {
+    position: absolute;
+    left: 300px;
+    top: 480px;
+}
+
+.bullet4 {
+    position: absolute;
+    right: 300px;
+    top: 480px;
+}
+
+/* Carousel */
+.carousel-control-prev, .carousel-control-next {
+    /* display: none; */
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 99%;
+    left: 5%;
+    padding: 30px;;
+}
+
+.carousel-indicators li {
+    background-color: grey;
+}
+
+@media (max-width: 1200px) {
+    h2.title {
+        font-size: 36px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .bullet1 {
+        position: absolute;
+        top: 230px;
+        left: 100px;
+    }
+    .bullet2 {
+        position: absolute;
+        top: 230px;
+        right: 100px;
+    }
+    .bullet3 {
+        position: absolute;
+        left: 150px;
+        top: 480px;
+    }
+    .bullet4 {
+        position: absolute;
+        right: 150px;
+        top: 480px;
+    }
+    .productBullet h3 {
+        font-size: 18px;
+    }
+    .productBullet p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* .aboutProducts {
+        height: ;
+    } */
+    .desktop,.subtitle {
+        display: none;
+    }
+
+    .carousel.slide {
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider-item {
+        margin-top: 30px;
+    }
+
+    h2.title {
+        font-size: 22px;
+        font-weight: 700;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .image img {
+        max-width: 55%;
+    }
+    .slide {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 330px) {
+    .image img {
+        width: 40%;
+        margin-top: 20px;
+    }
+    .slide {
+        margin-top: 0px;
+    }
+}

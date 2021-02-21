@@ -1,0 +1,112 @@
+
+/* Header, Logo, icons- search, basket, menu */
+.header {
+    background: url('../Header/bg-lg.png');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* Card width slogan */
+.card-header {
+    width: 33.3%;
+    margin: 10% 0;
+    background: rgba(0, 0, 0, 40%);
+    border-radius: 3px;
+}
+.card-body h5 {
+    font-family: Vallkorn;
+    color: white;
+    font-size: 48px;
+    padding: 30px 10px 10px 40px;
+}
+.card-text {
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    padding: 20px 60px 10px 40px;
+}
+
+@media (max-width: 1200px) {
+    .card-header {
+        width: 45%;
+    }
+    .card-body h5 {
+        font-size: 36px;
+    }
+} 
+
+@media (max-width: 1024px) and (min-height: 768px) {
+    .card-header {
+        margin-top: 20%;
+        width: 70%;
+    }
+    .card-body h5 {
+        font-size: 46px;
+    }
+    .card-text {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 768px) and (min-height: 375px) {
+    .card-header {
+        width: 75%;
+        margin-top: 30%;
+    }
+    .card-body h5 {
+        font-size: 36px;
+        padding: 10px 0px 10px 0px;
+    }
+    .card-text {
+        padding: 10px 0px 10px 0px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .header {
+        background: url('../Header/bg-small.png');
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .card-header {
+        width: 80%;
+        margin-top: 40%;
+    } 
+    .card-body h5 {
+        font-size: 22px;
+    }
+} 
+
+@media (max-width: 320px) {
+    .card-header {
+        margin-top: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-header {
+    margin: 10px;
+}
+
+

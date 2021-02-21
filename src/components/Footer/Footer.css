@@ -1,0 +1,30 @@
+.footer {
+    background-color: black;
+    height:25vh;
+}
+
+footer .logo {
+    margin-left: 70px;
+}
+
+
+.block-footer {
+    padding-top: 10px;
+}
+
+ul li {
+    color: white;
+    padding-left: 50px;
+}
+
+.footer-si {
+    margin-top: 20px;
+}
+
+.copyrights {
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}

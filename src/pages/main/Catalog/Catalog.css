@@ -1,0 +1,95 @@
+.сatalog {
+  height: 100vh;
+  background-color: #000000;
+}
+
+.catalog-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.item-title {
+  font-family: Voiikorn serif;
+  color: #ffffff;
+  font-size: 40px;
+  margin-top: 140px;
+}
+
+.catalog-img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.btn-catalog {
+  margin-top: 40px;
+  width: 50%;
+}
+
+.tomato-pic {
+  position: absolute;
+  top: 293%;
+  left: 0;
+}
+
+/* ADAPTIV LAYOUT STYLE*/
+
+@media (max-width: 992px) {
+  .desktop {
+    display: none;
+  }
+  .item {
+    margin: 10px;
+  }
+
+  .item-title {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .btn-catalog {
+    min-width: 60%;
+    font-size: 16px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .item-title {
+    font-size: 22px;
+  }
+
+  .btn-catalog {
+    min-width: 60%;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .catalog {
+    height: 100%;
+  }
+  .tomato-pic img {
+    position: inherit;
+    bottom: -200px;
+    left: 0;
+    width: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .catalog-img {
+    width: 80%;
+  }
+}

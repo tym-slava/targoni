@@ -1,0 +1,23 @@
+/* Top line with contacts and icons*/
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+    padding: 10px 30px;
+}
+
+@media (max-width: 769px) {
+    .top-info {
+        display: none;
+    }
+}
+
+.top-contacts {
+    display: flex;
+    justify-content: flex-start;
+    /* margin: 0 0 0 120px; */
+}
+
+
+

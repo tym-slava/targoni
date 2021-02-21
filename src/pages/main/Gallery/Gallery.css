@@ -1,0 +1,37 @@
+.gallery {
+  background-color: black;
+  height: 55vh;
+  text-align: center;
+}
+
+.title-gallery {
+  color: white;
+  font-family: Vollkorn;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 34px;
+  padding-top: 80px;
+}
+
+.gallery-text {
+  color: white;
+  padding-top: 15px;
+}
+
+
+
+@media (max-width: 576px) {
+  .gallery {
+    height: 75vh;
+  }
+
+  h2.title {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 330px) {
+  .gallery {
+    height: 100vh;
+  }
+}

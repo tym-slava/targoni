@@ -1,0 +1,49 @@
+.aboutUs {
+    background-color: black;
+    height: 100vh;
+    
+}
+
+.aboutUs-title {
+    padding-top: 100px;
+}
+
+.title-white {
+    color: white;
+    /* padding-top: 75px; */
+    margin-bottom: 50px;
+}
+
+.aboutUs-sec {
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutUsp {
+    color: white;
+    font-weight: 300;
+}
+
+.btn-aboutUs {
+    margin-left: 25%;
+}
+
+.aboutUs-img {
+    padding: 20px;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+    .aboutUs {
+        height: 100%;
+    }
+    .aboutUs-block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

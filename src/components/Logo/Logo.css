@@ -1,0 +1,22 @@
+.logo {
+    font-family: Cornelia;
+    font-weight: normal;
+    margin-left: 40px;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 34px;
+        
+    }
+}
+
+@media (max-width: 330px) {
+    .logo {
+        font-size: 28px;
+        margin: 0;
+    }
+}
+
